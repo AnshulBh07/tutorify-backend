@@ -1,0 +1,480 @@
+{
+  "tutors": [
+    {
+      "native_language": "English",
+      "tutor_type": "Professional",
+      "languages_taught": ["English", "Spanish"],
+      "hourly_rate": 40,
+
+      "number_of_students": 10,
+      "intro": "Hi there! I'm an experienced language instructor offering personalized English lessons for all levels. Let's embark on this language journey together!",
+      "demo_rate": 20,
+      "number_of_lessons": 50,
+      "status": "Online",
+      "reviews": [
+        {
+          "rating": 4.7,
+          "comment": "John is an excellent tutor. His lessons are engaging and informative."
+        },
+        {
+          "rating": 4.5,
+          "comment": "I highly recommend John. He's helped me improve my English speaking skills tremendously."
+        },
+        {
+          "rating": 4.9,
+          "comment": "John is an amazing teacher. He's patient, knowledgeable, and supportive."
+        },
+        {
+          "rating": 4.3,
+          "comment": "I've been taking English lessons with John for a few weeks now and I'm very satisfied with my progress. Highly recommend!"
+        },
+        {
+          "rating": 4.8,
+          "comment": "John is a fantastic tutor. He's helped me gain confidence in speaking English."
+        },
+        {
+          "rating": 4.7,
+          "comment": "John is an excellent tutor. He's very patient and supportive."
+        },
+        {
+          "rating": 4.6,
+          "comment": "Great experience learning with John. He's knowledgeable and supportive."
+        },
+        {
+          "rating": 4.9,
+          "comment": "John is an exceptional tutor. Highly recommended!"
+        }
+      ]
+    },
+    {
+      "native_language": "Japanese",
+      "tutor_type": "Professional",
+      "languages_taught": ["Japanese", "English"],
+      "hourly_rate": 35,
+
+      "number_of_students": 15,
+      "intro": "こんにちは! Experienced language instructor offering personalized Japanese lessons for all levels. Let's learn Japanese together!",
+      "demo_rate": 15,
+      "number_of_lessons": 60,
+      "status": "Online",
+      "reviews": [
+        {
+          "rating": 4.8,
+          "comment": "Sakura is an excellent tutor. Her lessons are engaging and effective."
+        },
+        {
+          "rating": 4.6,
+          "comment": "I highly recommend Sakura. She's helped me improve my Japanese speaking skills tremendously."
+        },
+        {
+          "rating": 4.7,
+          "comment": "Sakura is a patient and supportive teacher. I've learned a lot from her."
+        },
+        {
+          "rating": 4.9,
+          "comment": "I've been taking Japanese lessons with Sakura for a few weeks now and I'm very satisfied with my progress. Highly recommend!"
+        },
+        {
+          "rating": 4.5,
+          "comment": "Sakura is a fantastic tutor. She's patient, knowledgeable, and encouraging."
+        },
+        {
+          "rating": 4.6,
+          "comment": "Great experience learning with Sakura. Highly recommended!"
+        },
+        {
+          "rating": 4.7,
+          "comment": "Sakura is an excellent tutor. She's very patient and supportive."
+        },
+        {
+          "rating": 4.8,
+          "comment": "I highly recommend Sakura. She's an amazing teacher."
+        },
+        {
+          "rating": 4.9,
+          "comment": "Sakura is a great tutor. She's helped me improve my Japanese a lot."
+        },
+        {
+          "rating": 4.5,
+          "comment": "I've been taking lessons with Sakura for a few months now. She's fantastic!"
+        }
+      ]
+    },
+    {
+      "native_language": "Japanese",
+      "tutor_type": "Professional",
+      "languages_taught": ["Japanese", "English"],
+      "hourly_rate": 35,
+
+      "number_of_students": 15,
+      "intro": "こんにちは! Experienced language instructor offering personalized Japanese lessons for all levels. Let's learn Japanese together!",
+      "demo_rate": 15,
+      "number_of_lessons": 60,
+      "status": "Online",
+      "reviews": [
+        {
+          "rating": 4.8,
+          "comment": "Takeshi is an excellent tutor. His lessons are engaging and effective."
+        },
+        {
+          "rating": 4.6,
+          "comment": "I highly recommend Takeshi. He's helped me improve my Japanese speaking skills tremendously."
+        },
+        {
+          "rating": 4.7,
+          "comment": "Takeshi is a patient and supportive teacher. I've learned a lot from him."
+        },
+        {
+          "rating": 4.9,
+          "comment": "I've been taking Japanese lessons with Takeshi for a few weeks now and I'm very satisfied with my progress. Highly recommend!"
+        },
+        {
+          "rating": 4.5,
+          "comment": "Takeshi is a fantastic tutor. He's patient, knowledgeable, and encouraging."
+        },
+        {
+          "rating": 4.6,
+          "comment": "Great experience learning with Takeshi. Highly recommended!"
+        },
+        {
+          "rating": 4.7,
+          "comment": "Takeshi is an excellent tutor. He's very patient and supportive."
+        },
+        {
+          "rating": 4.8,
+          "comment": "I highly recommend Takeshi. He's an amazing teacher."
+        },
+        {
+          "rating": 4.9,
+          "comment": "Takeshi is a great tutor. He's helped me improve my Japanese a lot."
+        },
+        {
+          "rating": 4.5,
+          "comment": "I've been taking lessons with Takeshi for a few months now. He's fantastic!"
+        },
+        {
+          "rating": 4.6,
+          "comment": "Takeshi is a knowledgeable and supportive tutor. Highly recommended!"
+        }
+      ]
+    },
+    {
+      "native_language": "Japanese",
+      "tutor_type": "Professional",
+      "languages_taught": ["Japanese", "English"],
+      "hourly_rate": 35,
+
+      "number_of_students": 15,
+      "intro": "こんにちは! Experienced language instructor offering personalized Japanese lessons for all levels. Let's learn Japanese together!",
+      "demo_rate": 15,
+      "number_of_lessons": 60,
+      "status": "Online",
+      "reviews": [
+        {
+          "rating": 4.8,
+          "comment": "Emi is an excellent tutor. Her lessons are engaging and effective."
+        },
+        {
+          "rating": 4.6,
+          "comment": "I highly recommend Emi. She's helped me improve my Japanese speaking skills tremendously."
+        },
+        {
+          "rating": 4.7,
+          "comment": "Emi is a patient and supportive teacher. I've learned a lot from her."
+        },
+        {
+          "rating": 4.9,
+          "comment": "I've been taking Japanese lessons with Emi for a few weeks now and I'm very satisfied with my progress. Highly recommend!"
+        },
+        {
+          "rating": 4.5,
+          "comment": "Emi is a fantastic tutor. She's patient, knowledgeable, and encouraging."
+        },
+        {
+          "rating": 4.6,
+          "comment": "Great experience learning with Emi. Highly recommended!"
+        },
+        {
+          "rating": 4.7,
+          "comment": "Emi is an excellent tutor. She's very patient and supportive."
+        },
+        {
+          "rating": 4.8,
+          "comment": "I highly recommend Emi. She's an amazing teacher."
+        },
+        {
+          "rating": 4.9,
+          "comment": "Emi is a great tutor. She's helped me improve my Japanese a lot."
+        },
+        {
+          "rating": 4.5,
+          "comment": "I've been taking lessons with Emi for a few months now. She's fantastic!"
+        },
+        {
+          "rating": 4.6,
+          "comment": "Emi is a knowledgeable and supportive tutor. Highly recommended!"
+        }
+      ]
+    },
+    {
+      "native_language": "French",
+      "tutor_type": "Professional",
+      "languages_taught": ["French", "English"],
+      "hourly_rate": 35,
+      "number_of_students": 15,
+      "intro": "Bonjour! Experienced language instructor offering personalized French lessons for all levels. Let's learn French together!",
+      "demo_rate": 15,
+      "number_of_lessons": 60,
+      "status": "Online",
+      "reviews": [
+        {
+          "rating": 4.8,
+          "comment": "Pierre is an excellent tutor. His lessons are engaging and effective."
+        },
+        {
+          "rating": 4.6,
+          "comment": "I highly recommend Pierre. He's helped me improve my French speaking skills tremendously."
+        },
+        {
+          "rating": 4.7,
+          "comment": "Pierre is a patient and supportive teacher. I've learned a lot from him."
+        },
+        {
+          "rating": 4.9,
+          "comment": "I've been taking French lessons with Pierre for a few weeks now and I'm very satisfied with my progress. Highly recommend!"
+        },
+        {
+          "rating": 4.5,
+          "comment": "Pierre is a fantastic tutor. He's patient, knowledgeable, and encouraging."
+        },
+        {
+          "rating": 4.6,
+          "comment": "Great experience learning with Pierre. Highly recommended!"
+        },
+        {
+          "rating": 4.7,
+          "comment": "Pierre is an excellent tutor. He's very patient and supportive."
+        },
+        {
+          "rating": 4.8,
+          "comment": "I highly recommend Pierre. He's an amazing teacher."
+        },
+        {
+          "rating": 4.9,
+          "comment": "Pierre is a great tutor. He's helped me improve my French a lot."
+        },
+        {
+          "rating": 4.5,
+          "comment": "I've been taking lessons with Pierre for a few months now. He's fantastic!"
+        },
+        {
+          "rating": 4.6,
+          "comment": "Pierre is a knowledgeable and supportive tutor. Highly recommended!"
+        },
+        {
+          "rating": 4.7,
+          "comment": "Pierre is an excellent tutor. I've learned a lot from him."
+        },
+        {
+          "rating": 4.8,
+          "comment": "Great lessons with Pierre. Highly recommended!"
+        }
+      ]
+    },
+    {
+      "native_language": "French",
+      "tutor_type": "Professional",
+      "languages_taught": ["French", "English"],
+      "hourly_rate": 35,
+      "number_of_students": 15,
+      "intro": "Bonjour! Experienced language instructor offering personalized French lessons for all levels. Let's learn French together!",
+      "demo_rate": 15,
+      "number_of_lessons": 60,
+      "status": "Online",
+      "reviews": [
+        {
+          "rating": 4.8,
+          "comment": "Sophie is an excellent tutor. Her lessons are engaging and effective."
+        },
+        {
+          "rating": 4.6,
+          "comment": "I highly recommend Sophie. She's helped me improve my French speaking skills tremendously."
+        },
+        {
+          "rating": 4.7,
+          "comment": "Sophie is a patient and supportive teacher. I've learned a lot from her."
+        },
+        {
+          "rating": 4.9,
+          "comment": "I've been taking French lessons with Sophie for a few weeks now and I'm very satisfied with my progress. Highly recommend!"
+        },
+        {
+          "rating": 4.5,
+          "comment": "Sophie is a fantastic tutor. She's patient, knowledgeable, and encouraging."
+        },
+        {
+          "rating": 4.6,
+          "comment": "Great experience learning with Sophie. Highly recommended!"
+        },
+        {
+          "rating": 4.7,
+          "comment": "Sophie is an excellent tutor. She's very patient and supportive."
+        },
+        {
+          "rating": 4.8,
+          "comment": "I highly recommend Sophie. She's an amazing teacher."
+        },
+        {
+          "rating": 4.9,
+          "comment": "Sophie is a great tutor. She's helped me improve my French a lot."
+        },
+        {
+          "rating": 4.5,
+          "comment": "I've been taking lessons with Sophie for a few months now. She's fantastic!"
+        },
+        {
+          "rating": 4.6,
+          "comment": "Sophie is a knowledgeable and supportive tutor. Highly recommended!"
+        },
+        {
+          "rating": 4.7,
+          "comment": "Sophie is an excellent tutor. I've learned a lot from her."
+        },
+        {
+          "rating": 4.8,
+          "comment": "Great lessons with Sophie. Highly recommended!"
+        }
+      ]
+    },
+    {
+      "native_language": "Spanish",
+      "tutor_type": "Professional",
+      "languages_taught": ["Spanish", "English"],
+      "hourly_rate": 35,
+      "number_of_students": 15,
+      "intro": "¡Hola! Experienced language instructor offering personalized Spanish lessons for all levels. Let's learn Spanish together!",
+      "demo_rate": 15,
+      "number_of_lessons": 60,
+      "status": "Online",
+      "reviews": [
+        {
+          "rating": 4.8,
+          "comment": "Maria is an excellent tutor. Her lessons are engaging and effective."
+        },
+        {
+          "rating": 4.6,
+          "comment": "I highly recommend Maria. She's helped me improve my Spanish speaking skills tremendously."
+        },
+        {
+          "rating": 4.7,
+          "comment": "Maria is a patient and supportive teacher. I've learned a lot from her."
+        },
+        {
+          "rating": 4.9,
+          "comment": "I've been taking Spanish lessons with Maria for a few weeks now and I'm very satisfied with my progress. Highly recommend!"
+        },
+        {
+          "rating": 4.5,
+          "comment": "Maria is a fantastic tutor. She's patient, knowledgeable, and encouraging."
+        },
+        {
+          "rating": 4.6,
+          "comment": "Great experience learning with Maria. Highly recommended!"
+        },
+        {
+          "rating": 4.7,
+          "comment": "Maria is an excellent tutor. She's very patient and supportive."
+        },
+        {
+          "rating": 4.8,
+          "comment": "I highly recommend Maria. She's an amazing teacher."
+        },
+        {
+          "rating": 4.9,
+          "comment": "Maria is a great tutor. She's helped me improve my Spanish a lot."
+        },
+        {
+          "rating": 4.5,
+          "comment": "I've been taking lessons with Maria for a few months now. She's fantastic!"
+        },
+        {
+          "rating": 4.6,
+          "comment": "Maria is a knowledgeable and supportive tutor. Highly recommended!"
+        },
+        {
+          "rating": 4.7,
+          "comment": "Maria is an excellent tutor. I've learned a lot from her."
+        },
+        {
+          "rating": 4.8,
+          "comment": "Great lessons with Maria. Highly recommended!"
+        }
+      ]
+    },
+    {
+      "native_language": "Mandarin",
+      "tutor_type": "Professional",
+      "languages_taught": ["Mandarin", "English"],
+      "hourly_rate": 35,
+      "number_of_students": 15,
+      "intro": "你好! Experienced language instructor offering personalized Mandarin lessons for all levels. Let's learn Mandarin together!",
+      "demo_rate": 15,
+      "number_of_lessons": 60,
+      "status": "Online",
+      "reviews": [
+        {
+          "rating": 4.8,
+          "comment": "Chen is an excellent tutor. His lessons are engaging and effective."
+        },
+        {
+          "rating": 4.6,
+          "comment": "I highly recommend Chen. He's helped me improve my Mandarin speaking skills tremendously."
+        },
+        {
+          "rating": 4.7,
+          "comment": "Chen is a patient and supportive teacher. I've learned a lot from him."
+        },
+        {
+          "rating": 4.9,
+          "comment": "I've been taking Mandarin lessons with Chen for a few weeks now and I'm very satisfied with my progress. Highly recommend!"
+        },
+        {
+          "rating": 4.5,
+          "comment": "Chen is a fantastic tutor. He's patient, knowledgeable, and encouraging."
+        },
+        {
+          "rating": 4.6,
+          "comment": "Great experience learning with Chen. Highly recommended!"
+        },
+        {
+          "rating": 4.7,
+          "comment": "Chen is an excellent tutor. He's very patient and supportive."
+        },
+        {
+          "rating": 4.8,
+          "comment": "I highly recommend Chen. He's an amazing teacher."
+        },
+        {
+          "rating": 4.9,
+          "comment": "Chen is a great tutor. He's helped me improve my Mandarin a lot."
+        },
+        {
+          "rating": 4.5,
+          "comment": "I've been taking lessons with Chen for a few months now. He's fantastic!"
+        },
+        {
+          "rating": 4.6,
+          "comment": "Chen is a knowledgeable and supportive tutor. Highly recommended!"
+        },
+        {
+          "rating": 4.7,
+          "comment": "Chen is an excellent tutor. I've learned a lot from him."
+        },
+        {
+          "rating": 4.8,
+          "comment": "Great lessons with Chen. Highly recommended!"
+        }
+      ]
+    }
+  ]
+}
