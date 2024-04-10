@@ -4,6 +4,7 @@ import User from "../models/user";
 import Tutor from "../models/tutor";
 import { ObjectId } from "mongoose";
 import { promises as fsPromises } from "fs";
+import Lesson from "../models/lessons";
 
 let usersArr: IUser[];
 let tutorsArr: ITutor[];
@@ -127,6 +128,20 @@ export const populateDB = async (
 
             await newTutor.save();
           }
+        }
+      }
+
+      rawData = await fsPromises.readFile(
+        "./src/data/lessonsData.json",
+        "utf8"
+      );
+      data = JSON.parse(rawData);
+      const lessonsCount = await Lesson.countDocuments();
+
+      if (lessonsCount === 0) {
+        for (let i = 0; i < data.lessons.length; i++) {
+          const newLesson = new Lesson(data.lessons[i]);
+          await newLesson.save();
         }
       }
 

@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import { populateDB } from "./src/middlewares/populateDB";
 import tutorRoutes from "./src/routes/tutorRoutes";
+import lessonRoutes from "./src/routes/lessonRoutes";
 
 dotenv.config();
 
@@ -23,6 +24,9 @@ app.get("/", populateDB, (req: Request, res: Response) => {
 
 // routes for tutors
 app.use("/tutor", tutorRoutes);
+
+// routes for lessons
+app.use("/lesson", lessonRoutes);
 
 const main = async () => {
   try {

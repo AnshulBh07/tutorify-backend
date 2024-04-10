@@ -53,3 +53,22 @@ export interface IUser {
   createdAt?: Date;
   updatedAt?: Date;
 }
+
+export interface ITutorFetch {
+  _id: ObjectId;
+  native_language: string;
+  tutor_type: string;
+  languages_taught: string[];
+  hourly_rate: number;
+  number_of_students: number;
+  intro: string;
+  demo_rate: number;
+  number_of_lessons: number;
+  status: string;
+  reviews: IReview[];
+  instant_rate: boolean;
+  auto_accept: boolean;
+  user: IUser;
+  createdAt?: Date;
+  updatedAt?: Date;
+}

@@ -5,7 +5,6 @@
       "tutor_type": "Professional",
       "languages_taught": ["English", "Spanish"],
       "hourly_rate": 40,
-
       "number_of_students": 10,
       "intro": "Hi there! I'm an experienced language instructor offering personalized English lessons for all levels. Let's embark on this language journey together!",
       "demo_rate": 20,
@@ -51,7 +50,6 @@
       "tutor_type": "Professional",
       "languages_taught": ["Japanese", "English"],
       "hourly_rate": 35,
-
       "number_of_students": 15,
       "intro": "こんにちは! Experienced language instructor offering personalized Japanese lessons for all levels. Let's learn Japanese together!",
       "demo_rate": 15,
