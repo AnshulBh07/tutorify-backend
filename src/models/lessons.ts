@@ -14,7 +14,7 @@ const LessonSchema = new Schema(
     rating: { type: Number },
 
     // reference to the tutor with their user id
-    tutor: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    teacher: { type: Schema.Types.ObjectId, ref: "Tutor", required: true },
   },
   { timestamps: true }
 );
