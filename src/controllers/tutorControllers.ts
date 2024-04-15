@@ -8,6 +8,8 @@ export const getAllTutors = async (req: Request, res: Response) => {
   try {
     const queryParams = req.query;
 
+    // console.log(queryParams);
+
     // as query params are totally optional the validation od these params is
     // to be done during filtering an sorting
     // if (queryParams) console.log(typeof queryParams.native_speaker);

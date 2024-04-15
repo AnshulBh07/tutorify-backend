@@ -55,10 +55,26 @@ export const filterTutors = (tutors: ITutorFetch[], query: any) => {
   }
 
   if (typeof query.category !== "undefined") {
-    const category = query.category.toString();
+    const category = query.category.toString().toLowerCase();
 
-    filteredArr.filter((item) => {
-      return item.languages_taught.includes(category);
+    filteredArr = filteredArr.filter((item) => {
+      for (const language of item.languages_taught) {
+        if (language.toLowerCase() === category) return true;
+      }
+      return false;
+    });
+  }
+
+  // if tutor name is present
+  if (typeof query.tutor !== "undefined") {
+    const tutorKey = query.tutor.toString().toLowerCase();
+    console.log(tutorKey);
+
+    filteredArr = filteredArr.filter((item) => {
+      return (
+        item.user.first_name.toLowerCase().includes(tutorKey) ||
+        item.user.last_name?.toLowerCase().includes(tutorKey)
+      );
     });
   }
 
