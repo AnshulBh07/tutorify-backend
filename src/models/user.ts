@@ -11,7 +11,7 @@ const UserSchema = new Schema(
     salt: { type: String, required: true },
     dob: { type: Date },
     profile_pic: { type: String },
-    gender: { type: String, required: true },
+    gender: { type: String },
     phone_number: { type: String },
     isTutor: { type: Boolean, required: true },
     address: { type: Address.schema },

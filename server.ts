@@ -6,6 +6,8 @@ import mongoose from "mongoose";
 import { populateDB } from "./src/middlewares/populateDB";
 import tutorRoutes from "./src/routes/tutorRoutes";
 import lessonRoutes from "./src/routes/lessonRoutes";
+import signupRoutes from "./src/routes/signupRoutes";
+import loginRoutes from "./src/routes/loginRoutes";
 
 dotenv.config();
 
@@ -27,6 +29,10 @@ app.use("/tutor", tutorRoutes);
 
 // routes for lessons
 app.use("/lesson", lessonRoutes);
+
+// routes for login and signup
+app.use("/signup", signupRoutes);
+app.use("/login", loginRoutes);
 
 const main = async () => {
   try {
