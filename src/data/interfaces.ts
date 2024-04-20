@@ -50,6 +50,8 @@ export interface IUser {
   phone_number?: string;
   isTutor: boolean;
   address?: IAddress;
+  otp?: number;
+  otp_expire?: Date;
   createdAt?: Date;
   updatedAt?: Date;
 }

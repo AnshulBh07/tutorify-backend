@@ -15,6 +15,8 @@ const UserSchema = new Schema(
     phone_number: { type: String },
     isTutor: { type: Boolean, required: true },
     address: { type: Address.schema },
+    otp: { type: Number },
+    otp_expire: { type: Date }, //time when the otp expires
   },
   { timestamps: true }
 );

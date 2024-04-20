@@ -36,7 +36,14 @@ export const addUser = async (req: Request, res: Response) => {
       email: email,
       password: hash,
       salt: salt,
+      dob: null,
       isTutor: false,
+      phone_number: null,
+      address: null,
+      profile_pic: null,
+      gender: null,
+      otp: null,
+      otp_expire: null,
     });
 
     await newUser.save();

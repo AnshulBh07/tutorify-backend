@@ -61,7 +61,7 @@ export const populateDB = async (
       // only populate if the collection is empty
       if (userCount === 0) {
         usersArr.forEach(async (item) => {
-          const newUser = new User(item);
+          const newUser = new User({ ...item, otp: null, otp_expire: null });
           await newUser.save();
         });
       }
